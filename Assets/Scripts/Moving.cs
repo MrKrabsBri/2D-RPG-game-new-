@@ -16,45 +16,60 @@ public class Moving : MonoBehaviour {
     public Animator animator;
     private Vector3 initialScale; // keeping size from Scale
     PhotonView view;
+    private bool isFacingRight;
 
     // Start is called before the first frame update
-    private void Start(){
+    private void Start() {
+        isFacingRight = true;
         boxCollider = GetComponent<BoxCollider2D>();
         view = GetComponent<PhotonView>();
-      
+
     }
 
     // Update is called once per frame
     private void FixedUpdate() {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
 
-        //reset moeDelta
-        moveDelta = new Vector3(x, y, 0).normalized;
-        //moveDelta.normalize(); // to prevent faster diagonal movement.
-        
-        isMoving = moveDelta.magnitude > Mathf.Epsilon; 
+        if (view.IsMine) {
+            float x = Input.GetAxisRaw("Horizontal");
+            float y = Input.GetAxisRaw("Vertical");
 
-        if (isMoving){
-            animator.SetBool("IsMoving",true);
+            moveDelta = new Vector3(x, y, 0).normalized;
+            //moveDelta.normalize(); // to prevent faster diagonal movement.
+            isMoving = moveDelta.magnitude > Mathf.Epsilon;
+
+            if (isMoving) {
+                animator.SetBool("IsMoving", true);
+                if (!isFacingRight && moveDelta.x > 0) {
+                    Flip();
+                }
+                else if (isFacingRight && moveDelta.x < 0) {
+                    Flip();
+                }
+            }
+            else {
+                animator.SetBool("IsMoving", false);
+            }
+
+/*            if (moveDelta.x > 0) {
+                // initialScale = transform.localScale; // keeping size from Scale, hardcoded is simplier
+                // initialScale.x = -initialScale.x;
+                transform.localScale = new Vector3(-playerSize, playerSize, 1);
+            }
+            else if (moveDelta.x < 0) {
+                transform.localScale = new Vector3(playerSize, playerSize, 1);
+            }*/
+
+            transform.Translate(moveDelta * moveSpeed * Time.deltaTime);
+
+
         }
-        else {
-            animator.SetBool("IsMoving",false);
-        }
-
-        if (moveDelta.x > 0){
-            // initialScale = transform.localScale; // keeping size from Scale, hardcoded is simplier
-            // initialScale.x = -initialScale.x;
-            transform.localScale = new Vector3(-playerSize,playerSize,1); 
-        }
-        else if (moveDelta.x < 0){
-           transform.localScale = new Vector3(playerSize,playerSize,1); 
-        }
-            
-
-        transform.Translate(moveDelta      * moveSpeed   * Time.deltaTime);
-        
-    
-
     }
+
+    public void Flip() {
+        isFacingRight = !isFacingRight;
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1f;
+        transform.localScale = localScale;
+    }
+
 }

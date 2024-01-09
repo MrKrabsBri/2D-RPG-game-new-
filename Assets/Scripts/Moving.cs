@@ -16,13 +16,17 @@ public class Moving : MonoBehaviour {
     public Animator animator;
     private Vector3 initialScale; // keeping size from Scale
     PhotonView view;
+    PhotonTransformView photonTransferView;
     private bool isFacingRight;
+    private SpriteRenderer spriteRenderer;
+    PhotonAnimatorView photonAnimatorView;
 
     // Start is called before the first frame update
     private void Start() {
         isFacingRight = true;
         boxCollider = GetComponent<BoxCollider2D>();
         view = GetComponent<PhotonView>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
     }
 
@@ -45,31 +49,30 @@ public class Moving : MonoBehaviour {
                 else if (isFacingRight && moveDelta.x < 0) {
                     Flip();
                 }
+                /*                if (!isFacingRight && moveDelta.x > 0) {
+                                    spriteRenderer.flipX = isFacingRight;
+                                }
+                                else if (isFacingRight && moveDelta.x < 0) {
+                                    spriteRenderer.flipX = !isFacingRight;
+
+                                }*/
+                else {
+                    animator.SetBool("IsMoving", false);
+                }
+
+
+                transform.Translate(moveDelta * moveSpeed * Time.deltaTime);
+
+
             }
-            else {
-                animator.SetBool("IsMoving", false);
-            }
-
-/*            if (moveDelta.x > 0) {
-                // initialScale = transform.localScale; // keeping size from Scale, hardcoded is simplier
-                // initialScale.x = -initialScale.x;
-                transform.localScale = new Vector3(-playerSize, playerSize, 1);
-            }
-            else if (moveDelta.x < 0) {
-                transform.localScale = new Vector3(playerSize, playerSize, 1);
-            }*/
-
-            transform.Translate(moveDelta * moveSpeed * Time.deltaTime);
-
-
         }
+
     }
 
-    public void Flip() {
+    private void Flip() {
         isFacingRight = !isFacingRight;
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
     }
-
 }

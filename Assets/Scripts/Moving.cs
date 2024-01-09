@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
+using Photon.Pun;
 
 
 public class Moving : MonoBehaviour {
@@ -14,10 +15,12 @@ public class Moving : MonoBehaviour {
     private bool isMoving;
     public Animator animator;
     private Vector3 initialScale; // keeping size from Scale
+    PhotonView view;
 
     // Start is called before the first frame update
     private void Start(){
         boxCollider = GetComponent<BoxCollider2D>();
+        view = GetComponent<PhotonView>();
       
     }
 

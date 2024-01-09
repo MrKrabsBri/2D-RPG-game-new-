@@ -1,0 +1,1058 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.23590) 64bit Professional' Language: 'en' Physical Memory: 8117 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+G:\Program files\Unity\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/jb196/Unity projects/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51853
+Successfully changed project path to: C:/Users/jb196/Unity projects/My project
+C:/Users/jb196/Unity projects/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6548] Host "[IP] 192.168.1.147 [Port] 0 [Flags] 2 [Guid] 4156271056 [EditorId] 4156271056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5S9MGQF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6548] Host "[IP] 192.168.1.147 [Port] 0 [Flags] 2 [Guid] 4156271056 [EditorId] 4156271056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5S9MGQF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 875.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path G:/Program files/Unity/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jb196/Unity projects/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     4074 MB
+    Driver:   31.0.12027.9001
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'G:/Program files/Unity/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Program files/Unity/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'G:/Program files/Unity/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Program files/Unity/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: G:/Program files/Unity/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014686 seconds.
+- Loaded All Assemblies, in  0.647 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (229ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (201ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.685 seconds
+Refreshing native plugins compatible for Editor in 14.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.175 seconds
+Domain Reload Profiling: 2857ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1319ms)
+		LoadAssemblies (950ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (505ms)
+			TypeCache.Refresh (411ms)
+				TypeCache.ScanAssembly (358ms)
+			ScanForSourceGeneratedMonoScriptInfo (69ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1176ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (879ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (598ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 10.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6292 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (0.9 MB). Loaded Objects now: 6737.
+Memory consumption went from 248.7 MB to 247.8 MB.
+Total: 7.243300 ms (FindLiveObjects: 0.785000 ms CreateObjectMapping: 0.230700 ms MarkObjects: 5.417300 ms  DeleteObjects: 0.807800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ConnectToServer.cs: e7f7b691011fb1c9eb2075cc39edf54e -> 211e91e8726abafe9680d93c95abbc9f
+  custom:scripting/monoscript/fileName/CreateAndJoinRooms.cs: 3dc44c201ddb16a8a5a06c99d2c6b8cc -> 98fb1b2cd685d14176497344e1059c40
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58079.875227 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_21.png
+  artifactKey: Guid(b353bbabfea7545bfb0a64c8d1a8bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_21.png using Guid(b353bbabfea7545bfb0a64c8d1a8bd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca6fca716696557d642d0003c6bb394') in 0.224513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_27.png
+  artifactKey: Guid(f05f798ff81a14754890aafd770a40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_27.png using Guid(f05f798ff81a14754890aafd770a40a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc266b3850434eaf794ae2d30e86b3ca') in 0.041180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_30.png
+  artifactKey: Guid(cf03bd4d0d09c453cb06ea2c0039e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_30.png using Guid(cf03bd4d0d09c453cb06ea2c0039e7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae4ed8b0e7b11646c0e3f66b68f7153') in 0.040376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_35.png
+  artifactKey: Guid(07c8f504a11db45be870e52e3f24bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_35.png using Guid(07c8f504a11db45be870e52e3f24bce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dd3045328e538b44061dfe5c0eaab0') in 0.039980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_41.png
+  artifactKey: Guid(0536725c172054f8f81f59ec74ca4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_41.png using Guid(0536725c172054f8f81f59ec74ca4df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd573a17e4a6e46ecec15b9e61eb98c1b') in 0.044549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_43.png
+  artifactKey: Guid(2c06b397393064149b40d2deccde9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_43.png using Guid(2c06b397393064149b40d2deccde9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b419612436c28a093ade8da893113d20') in 0.053593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_55.png
+  artifactKey: Guid(eb86cde2e641d4e31b4bb9c7ce0bc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_55.png using Guid(eb86cde2e641d4e31b4bb9c7ce0bc65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bb33578bb7d293b8079ed667b4343e') in 0.042613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_37.png
+  artifactKey: Guid(8076787002c294a1c9bc2bdc4703356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_37.png using Guid(8076787002c294a1c9bc2bdc4703356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2104120deb9d4cf04d2a61acd0f0ae42') in 0.040225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_62.png
+  artifactKey: Guid(a492a1b42ca2e443cb3eba8513dbc3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_62.png using Guid(a492a1b42ca2e443cb3eba8513dbc3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b65fc699c0e209beed54d8d8faaa8b') in 0.037505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_68.png
+  artifactKey: Guid(c9299593e47d3410c95334f22828a8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_68.png using Guid(c9299593e47d3410c95334f22828a8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7e2d415cf0ef14f7c00c17b74704f2') in 0.042106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_71.png
+  artifactKey: Guid(d882728b4a14e441ba91e44d101b3668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_71.png using Guid(d882728b4a14e441ba91e44d101b3668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d5607e880733eae710dc6a5501830a') in 0.048671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_59.png
+  artifactKey: Guid(95e23a33ab83d416090a8d02718992c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_59.png using Guid(95e23a33ab83d416090a8d02718992c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4433cdb3ddc41cf35ed7b813ecbb7f4b') in 0.040952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_26.png
+  artifactKey: Guid(d17cecb05d1214268810bb32c7169077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_26.png using Guid(d17cecb05d1214268810bb32c7169077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7260907df2a4a2b9f367dd7350cd68ef') in 0.039024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_70.png
+  artifactKey: Guid(42fab07aea6ea4e75b252632b58f1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_70.png using Guid(42fab07aea6ea4e75b252632b58f1101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bce2c2f718fc18d3b57c7661c92a03f7') in 0.040701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.691885 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_76.png
+  artifactKey: Guid(59401d017b40a43ca933eb3d414f26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Background Pack Vol 1/background_76.png using Guid(59401d017b40a43ca933eb3d414f26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265cbb7d7e6589b56cbb4a3c18a7d27c') in 0.042039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_602.png
+  artifactKey: Guid(a62b6ba546dfd4b41ba7a22198746fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_602.png using Guid(a62b6ba546dfd4b41ba7a22198746fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e3ccc7b67d2c5a4d47db9b83991c8') in 0.030871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/6 Cave/cave_602.png
+  artifactKey: Guid(ba3e39a21456e456eaaa5800ad826164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/6 Cave/cave_602.png using Guid(ba3e39a21456e456eaaa5800ad826164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd5f33dbed2b7ac9d565ff1939c095f') in 0.026263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/shadow/6 Cave/cave_603.png
+  artifactKey: Guid(5239110c281ef40dda2ba995c429ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/shadow/6 Cave/cave_603.png using Guid(5239110c281ef40dda2ba995c429ff4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86487f04ff44c334effb6068fa15c2fb') in 0.024707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/6 Cave/cave_605.png
+  artifactKey: Guid(65ed0b48f68c4444cb0ff08b90652851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/6 Cave/cave_605.png using Guid(65ed0b48f68c4444cb0ff08b90652851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61942af53132201e8c197d0d2673d5df') in 0.043437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/shadow/6 Cave/cave_605.png
+  artifactKey: Guid(4932922eada0c4b1d993d89d58eba955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/shadow/6 Cave/cave_605.png using Guid(4932922eada0c4b1d993d89d58eba955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96381fb35d3ee3c5387ee86d6497480') in 0.025378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_606.png
+  artifactKey: Guid(6573a3a2199444db9819a1f85bb1b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_606.png using Guid(6573a3a2199444db9819a1f85bb1b3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97391c817adba3b5cbbe732615e1c3c0') in 0.027830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/6 Cave/cave_603.png
+  artifactKey: Guid(0cd822aeab66f4eef974a7fd03137c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/6 Cave/cave_603.png using Guid(0cd822aeab66f4eef974a7fd03137c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebc10bdf1ba6ef6f018f0928ff47a35') in 0.029042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_603.png
+  artifactKey: Guid(eb8a79758605b48db80a81e74f453dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/6 Cave/cave_603.png using Guid(eb8a79758605b48db80a81e74f453dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1376c2bb81140791930ef8ba7a972098') in 0.030812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_179.png
+  artifactKey: Guid(1e2a57bf621dd4bbf9856fd7f9629c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_179.png using Guid(1e2a57bf621dd4bbf9856fd7f9629c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da15fa1e234ecf5008e177a4b759ecb') in 0.056771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_183.png
+  artifactKey: Guid(0e6dc8846eb554059b15c3b8256facba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_183.png using Guid(0e6dc8846eb554059b15c3b8256facba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e51e4e4b2f7db5e7d1e74b01fa31bb0') in 0.046137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_176.png
+  artifactKey: Guid(afbd7cc2bc4ac4a6aa6132cc110627ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_176.png using Guid(afbd7cc2bc4ac4a6aa6132cc110627ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047a1a4ec3e7574c2c8eec8e46aaaed8') in 0.051859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_191.png
+  artifactKey: Guid(aa5ffef2a28374c43be4930f5c502bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_191.png using Guid(aa5ffef2a28374c43be4930f5c502bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfa330c006e1051e40791aadf60701e') in 0.053667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_187.png
+  artifactKey: Guid(18651c92f2c574c7881cd8f841f61d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_187.png using Guid(18651c92f2c574c7881cd8f841f61d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec772aa06fb8c942a1578a437e844914') in 0.060627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_174.png
+  artifactKey: Guid(d1ab780900001473fb542e63015c870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 3/character_174.png using Guid(d1ab780900001473fb542e63015c870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68ce49be955eba075443af7193372fa') in 0.058362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_181.png
+  artifactKey: Guid(e15106a7c559e408e86c29467b4fe195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Character Pack Vol 4/character_181.png using Guid(e15106a7c559e408e86c29467b4fe195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ace1cb9ff576d5797733a74c9b65e0') in 0.040884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.211096 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png
+  artifactKey: Guid(a3464046b5f29474b891e5a6b0602b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Icons/Comleted_Icon.png using Guid(a3464046b5f29474b891e5a6b0602b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcd9d29ee94269f6191c568e750fd51') in 0.028861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.069154 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_9.png
+  artifactKey: Guid(d5b9892c7e6d640e5ba88da82ee83613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_9.png using Guid(d5b9892c7e6d640e5ba88da82ee83613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963f9b3dcb1257302c512ae85c81df1e') in 0.038551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_11.png
+  artifactKey: Guid(188ce174ecdfe4a59aa50de26e263447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_11.png using Guid(188ce174ecdfe4a59aa50de26e263447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f239e21aed93941879ab8263e86ac632') in 0.044783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_14.png
+  artifactKey: Guid(103014afd5eb8492392422af9734f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_14.png using Guid(103014afd5eb8492392422af9734f2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e742c74f38d43d1efdd7e0a1c8512dc') in 0.040050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_17.png
+  artifactKey: Guid(3836a73a47803420a9e71c1e34fb02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_17.png using Guid(3836a73a47803420a9e71c1e34fb02f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6f6a8d6fd3078a4b350111dc507c02') in 0.043385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_21.png
+  artifactKey: Guid(772c1bcbf772846f595e5d6965f9c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_21.png using Guid(772c1bcbf772846f595e5d6965f9c7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf6cbbc2e6a67a65684a290a75609dc') in 0.053083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_23.png
+  artifactKey: Guid(565e6a03a8a884a60803bfb78a0fbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_23.png using Guid(565e6a03a8a884a60803bfb78a0fbfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def9977fcc0066559d537743dc5bb62a') in 0.058190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_30.png
+  artifactKey: Guid(a2cbbe499ca334bbf9d16c9f21966392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_30.png using Guid(a2cbbe499ca334bbf9d16c9f21966392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da96e73f0e158785945c6ef63987186') in 0.049909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_29.png
+  artifactKey: Guid(db3efc8fcb4f642ac8983dcb66507374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_29.png using Guid(db3efc8fcb4f642ac8983dcb66507374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd86e9d0eb7f66217ed89de5a1e5afe') in 0.060535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_38.png
+  artifactKey: Guid(b57f8d944806c4a7ba08be3d73fa9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_38.png using Guid(b57f8d944806c4a7ba08be3d73fa9aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58ba022b5531f4033a6c52606863f18') in 0.052600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_40.png
+  artifactKey: Guid(0872c00b9a27f461a8c283577d29b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_40.png using Guid(0872c00b9a27f461a8c283577d29b4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333ff626a6d6f16d8e0c2c730805ea35') in 0.052183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_59.png
+  artifactKey: Guid(0b8e4906286c440dda48dae4cd38385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_59.png using Guid(0b8e4906286c440dda48dae4cd38385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eec4c50b5ecc69034dc5943c133b85') in 0.049386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_63.png
+  artifactKey: Guid(1f9e47f88e1714493918e935b7cac8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_63.png using Guid(1f9e47f88e1714493918e935b7cac8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30644d92ea6a1221d776f82a84d4fbc0') in 0.083811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_65.png
+  artifactKey: Guid(83e61db4476ad466a956a46a70806c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_65.png using Guid(83e61db4476ad466a956a46a70806c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d39f775e9603850668f381edd17aad') in 0.047227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_66.png
+  artifactKey: Guid(8ed7bb116c0504d518aef9cb5e7d2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_66.png using Guid(8ed7bb116c0504d518aef9cb5e7d2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e47433f134f6eaa5c57e0192ecb356') in 0.054049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_71.png
+  artifactKey: Guid(bd4813944ceb24b859839817016ecb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_71.png using Guid(bd4813944ceb24b859839817016ecb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd55a0a1671d24ecdf497df620e23bd') in 0.044079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_77.png
+  artifactKey: Guid(f060c19b2136048678d65abc766587a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_77.png using Guid(f060c19b2136048678d65abc766587a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90cd7adcea78338e9ff305f226e5e1') in 0.042432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_39.png
+  artifactKey: Guid(eb4fc05cd739549518cd6df93bb1d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_39.png using Guid(eb4fc05cd739549518cd6df93bb1d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19d9dc659ecc900104850307032243c') in 0.047174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_72.png
+  artifactKey: Guid(f244b7dbe79714c6481a4170f8926c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_72.png using Guid(f244b7dbe79714c6481a4170f8926c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c163b5637cc2b57fe459e1c817556eb') in 0.042799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_70.png
+  artifactKey: Guid(11052f358af58418f862a7afb8b8c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_70.png using Guid(11052f358af58418f862a7afb8b8c5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd91814316b76b8ac3733fc7c92bd5b3') in 0.039208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_33.png
+  artifactKey: Guid(a3ddccf5444514d23a83d032b55d4bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 1/creature_33.png using Guid(a3ddccf5444514d23a83d032b55d4bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a30af87d75796abe93bf41a3a729a') in 0.042069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.014025 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_80.png
+  artifactKey: Guid(cdc5bc8ddb8a3455d958e1c01957deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_80.png using Guid(cdc5bc8ddb8a3455d958e1c01957deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bd292fa6adc56f7564aaa1d60eb052') in 0.035976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_84.png
+  artifactKey: Guid(793155864de6447e38c3f97516f243fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_84.png using Guid(793155864de6447e38c3f97516f243fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cdc42f1adf66ed6d3c9663d70f56a6') in 0.039072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_82.png
+  artifactKey: Guid(bd0de180acd144d0387b8c34ffaa43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_82.png using Guid(bd0de180acd144d0387b8c34ffaa43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed4b7567c11cf18b471a24143ff0d9c') in 0.036205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_114.png
+  artifactKey: Guid(145f41bc4056449a49fa8c78523f4598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_114.png using Guid(145f41bc4056449a49fa8c78523f4598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dc905281cc25182288ae73afd6ad10') in 0.037090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_115.png
+  artifactKey: Guid(2c0f4d6467ea04f00847af63f2de725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_115.png using Guid(2c0f4d6467ea04f00847af63f2de725d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc6e240ad610c938942dd7f14d4ea9') in 0.039490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_116.png
+  artifactKey: Guid(3b101468127434b958c3057e8189ccfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_116.png using Guid(3b101468127434b958c3057e8189ccfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e27fa6daf4fe4c1257a38da8a96e14') in 0.137757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_122.png
+  artifactKey: Guid(25c270f1f05ef462091c2ad792075787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_122.png using Guid(25c270f1f05ef462091c2ad792075787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b012fa1a14558879b7598d7621c23d') in 0.050807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 3/creature_128.png
+  artifactKey: Guid(bcfcd0c492caa40cf82159d9c0212f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 3/creature_128.png using Guid(bcfcd0c492caa40cf82159d9c0212f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ce8b6626801b3e02df3d6920f44c27') in 0.053271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 3/creature_129.png
+  artifactKey: Guid(f148d557597cf4609abaf5dc7a8b423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 3/creature_129.png using Guid(f148d557597cf4609abaf5dc7a8b423a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e93475d4c7ab5e27691deb97b0cf4b5') in 0.052570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_224.png
+  artifactKey: Guid(635659f4c37b04f4293e177b22d0ab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_224.png using Guid(635659f4c37b04f4293e177b22d0ab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0079866a80a1c1ec01a9979887eb18') in 0.053665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_226.png
+  artifactKey: Guid(73bc81c3aab144d73ab93a55426596a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_226.png using Guid(73bc81c3aab144d73ab93a55426596a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdbf6cfd7d8247a0ddae9dbc88ac1c7') in 0.056450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_230.png
+  artifactKey: Guid(e5f91ffa51bef42f2b5b5fa74e8e05f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_230.png using Guid(e5f91ffa51bef42f2b5b5fa74e8e05f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9f43c44318813b09135230f04fd4b8') in 0.043614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_238.png
+  artifactKey: Guid(7c8f369fd28c645359a04516974bad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_238.png using Guid(7c8f369fd28c645359a04516974bad78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4acee43b79344b13b4aad4ca393920') in 0.049022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_242.png
+  artifactKey: Guid(21c33cd4044f74210b3b7f5133d94c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_242.png using Guid(21c33cd4044f74210b3b7f5133d94c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baab61a1f73c915d184364dd7199845') in 0.056040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_258.png
+  artifactKey: Guid(d898c70a3c2ac4ed990e412c4ac37e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_258.png using Guid(d898c70a3c2ac4ed990e412c4ac37e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43affa03a6c9d29c2fa0793658a4e0e7') in 0.037828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_263.png
+  artifactKey: Guid(17e33f587b261499ab911f0dc739a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_263.png using Guid(17e33f587b261499ab911f0dc739a449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e68c556f3712c56a16b8d818c6cc13a') in 0.039189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_233.png
+  artifactKey: Guid(0c1b5551df66448caba44163d7154506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 4/creature_233.png using Guid(0c1b5551df66448caba44163d7154506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d16bd2c18bf284cb4442274085174f5') in 0.058748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_269.png
+  artifactKey: Guid(32ed41473a3f640199ab348d29d44a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_269.png using Guid(32ed41473a3f640199ab348d29d44a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0776635878b1f19121b163845dfaea4e') in 0.061685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_265.png
+  artifactKey: Guid(83c041aafee754ba2a74ac5fec88cbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_265.png using Guid(83c041aafee754ba2a74ac5fec88cbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c6b1b4ca32b0c8e94398395953cb54') in 0.054115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_277.png
+  artifactKey: Guid(aa1e6b8a655244ea9bac635011b7c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_277.png using Guid(aa1e6b8a655244ea9bac635011b7c91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c12eaa946b89c2cab2f19d9e371db8b') in 0.044184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_51.png
+  artifactKey: Guid(58aa187aed413428f9291cb21070eae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_51.png using Guid(58aa187aed413428f9291cb21070eae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5ed0ca1f09a635bee74eede12de1f8') in 0.046215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_55.png
+  artifactKey: Guid(2824254c8d9144db69a0caf3625a3c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_55.png using Guid(2824254c8d9144db69a0caf3625a3c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412ec7fec5f7c3d39d68624bb500179') in 0.044734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_58.png
+  artifactKey: Guid(e9418fe6f10044491b6d581e4a238386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_58.png using Guid(e9418fe6f10044491b6d581e4a238386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4a6bd21b8cb69d2971afee32f908fb') in 0.059658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_56.png
+  artifactKey: Guid(ea3673b546963448c952ae9ce45a8d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_56.png using Guid(ea3673b546963448c952ae9ce45a8d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fc0bff1eee690632031c7dd3dcaf30') in 0.059933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_70.png
+  artifactKey: Guid(78573bc0645a14a498729c2a06482244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_70.png using Guid(78573bc0645a14a498729c2a06482244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5973b340ae921f0cfa59df9d51715268') in 0.055937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png
+  artifactKey: Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Login Panel/LoginButton_Pressed.png using Guid(b75aa2349cb309240afa0694dffe6027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addd6724c2927f88f0bea3b6611575ec') in 0.036029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_64.png
+  artifactKey: Guid(4cfc255b0633f4e3987657350de9603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_64.png using Guid(4cfc255b0633f4e3987657350de9603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1973a7e69e41aee28ac731d0887d7318') in 0.041634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png
+  artifactKey: Guid(4e919d44466f0624191cd947ff906d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Character Panel/Nickname_Slot.png using Guid(4e919d44466f0624191cd947ff906d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c6641f7c197550ae2c99fb076b5a6c') in 0.034431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png
+  artifactKey: Guid(c7af4caf86986a24d89b41c984aa68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Inventory/Money_Bar.png using Guid(c7af4caf86986a24d89b41c984aa68d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba82233888c5d1e2fcb8d46e929a1f33') in 0.031100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Icons/Minus_Icon.png
+  artifactKey: Guid(479eafb2543431043a8ee390637ac0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Icons/Minus_Icon.png using Guid(479eafb2543431043a8ee390637ac0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a121fab9bd2f5a5841519544dcc00c') in 0.021400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+  artifactKey: Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png using Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809003af66fe661a41d851c751ae6671') in 0.026531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7933960d31ec13193be38947e7f847a3') in 0.034055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png
+  artifactKey: Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/Simple Fantasy GUI/PNG/Quest Panel/Reward_Slot.png using Guid(92a4fb96206097047a300ebace4278a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd945412707d83763dc05c07ccea7340') in 0.028025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/3 Sea/sea_301.png
+  artifactKey: Guid(947406ad1d2eb4185801559846e4f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/3 Sea/sea_301.png using Guid(947406ad1d2eb4185801559846e4f6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df98a19a710c6df4e881f221bbb27040') in 0.029512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/3 Sea/sea_303.png
+  artifactKey: Guid(864125d919f4547c084d777da698c781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/3 Sea/sea_303.png using Guid(864125d919f4547c084d777da698c781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361ebcf69063c908f63e9fa28d7bdc3f') in 0.030238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/3 Sea/sea_301.png
+  artifactKey: Guid(dbb95adfad37e4818870ecb7d50ee266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/3 Sea/sea_301.png using Guid(dbb95adfad37e4818870ecb7d50ee266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adacc88e811c62a3cb80339064d3dc2') in 0.033777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_68.png
+  artifactKey: Guid(8c2e19dd68d2b45ecac16beb04bd9653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Item Pack Vol 1/item_68.png using Guid(8c2e19dd68d2b45ecac16beb04bd9653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a02a887feb4ae62dfb78c1e9b22874') in 0.055236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_270.png
+  artifactKey: Guid(a38dc6cc3077e45c38062d88e4f90bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_270.png using Guid(a38dc6cc3077e45c38062d88e4f90bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe62b74405d40b52fbba5aab01b587c4') in 0.050671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_260.png
+  artifactKey: Guid(92639c1b58ae740a59055ab08dba632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_260.png using Guid(92639c1b58ae740a59055ab08dba632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2005f52504729f9bd60c123a71a16') in 0.056480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_271.png
+  artifactKey: Guid(5c47542a9ebaa42a09e358deea632ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 5/creature_271.png using Guid(5c47542a9ebaa42a09e358deea632ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860bc103b72f2d301b0d556c8004f2ad') in 0.056384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/3 Sea/sea_302.png
+  artifactKey: Guid(df5ecf2c29baf4079933f04486bde199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/shadow/3 Sea/sea_302.png using Guid(df5ecf2c29baf4079933f04486bde199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d65624e0258442cdc05bbf52030aa3') in 0.033233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_121.png
+  artifactKey: Guid(31fb2b2c9462d46508c9f432757e3c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/2D Fantasy Art Assets Full Pack/2D Creature Pack Vol 2/creature_121.png using Guid(31fb2b2c9462d46508c9f432757e3c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd950c5e8a67196201fd41ed52c214114') in 0.051541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 86.112222 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/1 Undead/undead_101.png
+  artifactKey: Guid(000ab9f9d7af449a391fc30da5dfcf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/1 Undead/undead_101.png using Guid(000ab9f9d7af449a391fc30da5dfcf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75af98343c7b8c5765d393a995763a6a') in 0.025286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/1 Undead/undead_102.png
+  artifactKey: Guid(8b0086bc648b14a9b978348d6c678881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/min size/no shadow/1 Undead/undead_102.png using Guid(8b0086bc648b14a9b978348d6c678881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe52ad2f97530496c9d935f13ffd20fa') in 0.023885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/1 Undead/undead_104.png
+  artifactKey: Guid(322b0d3ba65f6447f9d7464be643d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/1 Undead/undead_104.png using Guid(322b0d3ba65f6447f9d7464be643d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6872588e098d4976c28a18a3c426d5') in 0.024446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/1 Undead/undead_103.png
+  artifactKey: Guid(b43859fd77eee45cebacce0bd6d02b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project Assembly/External/RPG Monster Pack/Icons/default size/no shadow/1 Undead/undead_103.png using Guid(b43859fd77eee45cebacce0bd6d02b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cdc5e3d803a3343de3a94814955536') in 0.026025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.325 seconds
+Refreshing native plugins compatible for Editor in 10.48 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.145 seconds
+Domain Reload Profiling: 5465ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (896ms)
+		LoadAssemblies (993ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (4146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (852ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (566ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.9 MB). Loaded Objects now: 6812.
+Memory consumption went from 223.8 MB to 222.9 MB.
+Total: 7.811700 ms (FindLiveObjects: 0.714200 ms CreateObjectMapping: 0.226400 ms MarkObjects: 6.206100 ms  DeleteObjects: 0.662600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ConnectToServer.cs: e7f7b691011fb1c9eb2075cc39edf54e -> 211e91e8726abafe9680d93c95abbc9f
+  custom:scripting/monoscript/fileName/CreateAndJoinRooms.cs: 3dc44c201ddb16a8a5a06c99d2c6b8cc -> 98fb1b2cd685d14176497344e1059c40
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (0.9 MB). Loaded Objects now: 6812.
+Memory consumption went from 129.9 MB to 129.0 MB.
+Total: 7.466700 ms (FindLiveObjects: 0.904800 ms CreateObjectMapping: 0.371500 ms MarkObjects: 5.516900 ms  DeleteObjects: 0.671200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ConnectToServer.cs: e7f7b691011fb1c9eb2075cc39edf54e -> 211e91e8726abafe9680d93c95abbc9f
+  custom:scripting/monoscript/fileName/CreateAndJoinRooms.cs: 3dc44c201ddb16a8a5a06c99d2c6b8cc -> 98fb1b2cd685d14176497344e1059c40
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

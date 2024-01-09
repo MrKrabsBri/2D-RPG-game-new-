@@ -47,3 +47,6 @@ TagManager:
   - name: Player layer
     uniqueID: 1792877611
     locked: 0
+  - name: Interactable layer
+    uniqueID: 2480533049
+    locked: 0

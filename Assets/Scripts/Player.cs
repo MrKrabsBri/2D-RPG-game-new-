@@ -65,12 +65,12 @@ public class Player : MonoBehaviourPun, IPunObservable {
         moveDelta = new Vector3(x, y, 0).normalized;
         transform.position += (moveDelta * moveSpeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)) {
+        if (moveDelta.x > 0) {
             sr.flipX = false;
             view.RPC("OnDirectionChange_RIGHT", RpcTarget.Others);
             Debug.Log("desine");
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)) {
+        else if (moveDelta.x <0) {
             sr.flipX = true;
             view.RPC("OnDirectionChange_LEFT", RpcTarget.Others);
             Debug.Log("kaire");
@@ -81,12 +81,6 @@ public class Player : MonoBehaviourPun, IPunObservable {
         transform.position = Vector3.Lerp(transform.position, smoothMove, Time.deltaTime * 10);
     }
 
-    /*    private void Flip() {
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
-        }*/
 
     [PunRPC]
     void OnDirectionChange_LEFT() {

@@ -42,6 +42,8 @@ MonoBehaviour:
   - RPCFlipSprite
   - <FixedUpdate>g__RPCFlipSprite|12_1
   - <FixedUpdate>g__RPCFlipSprite|12_0
+  - OnDirectionChange_LEFT
+  - OnDirectionChange_RIGHT
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

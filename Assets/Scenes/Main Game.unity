@@ -3272,6 +3272,7 @@ GameObject:
   - component: {fileID: 1556305678}
   - component: {fileID: 1556305680}
   - component: {fileID: 1556305681}
+  - component: {fileID: 1556305682}
   m_Layer: 0
   m_Name: Door_Closed
   m_TagString: Player
@@ -3418,6 +3419,28 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   openedDoor: {fileID: 1418663047, guid: 8105170494f52d0488077b58fcbd3770, type: 3}
+--- !u!114 &1556305682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556305676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 2
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1598005420
 GameObject:
   m_ObjectHideFlags: 0

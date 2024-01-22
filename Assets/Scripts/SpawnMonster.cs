@@ -18,25 +18,7 @@ public class SpawnMonster : MonoBehaviourPun {
 
     // Start is called before the first frame update
     void Start() {
-        /*        if (PhotonNetwork.IsMasterClient) {
 
-                    Debug.Log("Here");
-                    monsterList = new MonsterList();
-                    monsterList.list = new List<Vector2>();
-
-                    for (int i = 0; i < monsterCount; i++) {
-                        GameObject monster1 = Instantiate(monsterPrefab, transform);
-                        monster1.transform.position = new Vector3(xCoords1, yCoords1, 0);
-                        monsterList.list.Add(monster1.transform.position);
-                        GameObject monster2 = Instantiate(monsterPrefab, transform);
-                        monster1.transform.position = new Vector3(xCoords2, yCoords2, 0);
-                        monsterList.list.Add(monster2.transform.position);
-                    }
-
-                    string monsterString = JsonUtility.ToJson(monsterList);
-                    myPV.RPC("RPC_SyncMonsters", RpcTarget.OthersBuffered, monsterString);
-
-                }*/
 
         if (PhotonNetwork.IsMasterClient) {
 
@@ -56,9 +38,9 @@ public class SpawnMonster : MonoBehaviourPun {
         }
     }
 
-    void AddPrefabInstanceToList() {
-        /* monsterList = new MonsterList();
-         monsterList.list = new List<Vector2>();*/
+/*    void AddPrefabInstanceToList() {
+        *//* monsterList = new MonsterList();
+         monsterList.list = new List<Vector2>();*//*
 
         for (int i = 0; i < monsterCount; i++) {
             // Create a new instance of the prefab (not in the game world).
@@ -71,29 +53,7 @@ public class SpawnMonster : MonoBehaviourPun {
         }
 
 
-    }
-
-    /*    public void SpawnMonsterMethod() {
-
-            Vector2 randomPosition1 = new Vector2(xCoords1, yCoords1);
-            PhotonNetwork.Instantiate(monsterPrefab.name, randomPosition1, Quaternion.identity);
-            Vector2 randomPosition2 = new Vector2(xCoords2, yCoords2);
-            PhotonNetwork.Instantiate(monsterPrefab.name, randomPosition2, Quaternion.identity);
-        }*/
-
-    /*   [PunRPC]
-       public void RPC_SyncMonsters(string monsters) {
-           Debug.Log(monsters);
-           monsterList = JsonUtility.FromJson<MonsterList>(monsters);
-           Debug.Log(monsterList.list.Count);
-           for (int i = 0; i < monsterList.list.Count; i++) {
-               Debug.Log(monsterList.list[i]);
-               GameObject monster = Instantiate(monsterPrefab, transform);
-               monster.transform.position = new Vector3(monsterList.list[i].x, monsterList.list[i].y, 0);
-
-           }
-       }*/
-
+    }*/
 
     void DestroyMonster() {//+++
         photonView.RPC("RPC_DestroyMonster", RpcTarget.AllBuffered);
@@ -109,15 +69,14 @@ public class SpawnMonster : MonoBehaviourPun {
 
     }
 
-
-    void OnJoinedRoom() { //+++++
+/*    void OnJoinedRoom() { //+++++
         // Instantiate monsters for new player
         InstantiateExistingGameObjects();
-    }
+    }*/
 
-    void InstantiateExistingGameObjects() {//++++
+/*    void InstantiateExistingGameObjects() {//++++
 
-        foreach (GameObject /*or var*/ obj in prefabInstancesList) {
+        foreach (GameObject *//*or var*//* obj in prefabInstancesList) {
             // Instantiate the monster for the new player
             photonView.RPC("RPC_InstantiateMonster", RpcTarget.Others, obj.transform.position);
         }
@@ -129,7 +88,7 @@ public class SpawnMonster : MonoBehaviourPun {
         GameObject newObj = Instantiate(monsterPrefab, position, Quaternion.identity);
         // Transfer ownership to the new player
         newObj.GetPhotonView().TransferOwnership(PhotonNetwork.LocalPlayer);
-    }
+    }*/
 }
 
 class MonsterList {

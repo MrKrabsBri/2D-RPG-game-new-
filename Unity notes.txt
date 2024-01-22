@@ -1,0 +1,24 @@
+kai keisi "Main Game" scene name, turesi pakeist connectToServer scene name ir createAndJoinRooms scripto scene name.
+
+visi objektai spawninami zaidimui turi buti butinai folderyje "Resources".
+
+Photon Transform View Classic - syncina movementa tarp players in client.
+
+Photon Animator View - syncina playeriu animations vienas kitam.
+
+camera notes pun2 [08] example ant 10:15
+
+player camera is missing[---] ,, yra camera scriptas ir tame 7h tutoriale geras.
+
+[note]
+istryniau photon transform view classic ir photon animator view is player prefab.
+
+Layer Collision Matrix:
+    Verify that the layer collision matrix is configured to allow collisions between the layers of the colliding GameObjects. Go to Edit > Project Settings > Physics 2D and check the layer collision matrix.
+
+naudok kuo daugiau int vietoje float.
+
+---brotato game check it out---
+
+synchronizing objects naudojam OnPhotonSerializeView,
+kai norim kazka right away padaryti naudojam RPC

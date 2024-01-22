@@ -13,14 +13,14 @@ public class Collidable : MonoBehaviour {
 
     private Collider2D[] collisions = new Collider2D[10];
 
-/*    protected void OnTriggerEnter2D(Collider2D other) {
-        if (other.CompareTag("Player")) {
-            // if (other.gameObject.tag== "Player"){
+    /*    protected void OnTriggerEnter2D(Collider2D other) {
+            if (other.CompareTag("Player")) {
+                // if (other.gameObject.tag== "Player"){
 
-            Debug.Log(other.name);
-            //OnCollect();
-        }
-    }*/
+                Debug.Log(other.name);
+                //OnCollect();
+            }
+        }*/
 
 
     protected virtual void Start() {
@@ -39,6 +39,7 @@ public class Collidable : MonoBehaviour {
 
 
             OnCollide(collisions[i]);
+            //Destroy(collisions[i].gameObject);
 
             // the array is not cleaned up, so we do it ourself
             collisions[i] = null;
@@ -46,8 +47,18 @@ public class Collidable : MonoBehaviour {
 
     }
 
+/*    private void OnCollisionEnter2D(Collision2D collision) {
+        Debug.Log("collision");
+        if (collision.collider.CompareTag("Player")) {
+            Destroy(collision.gameObject);
+        }
+    }*/
+
     protected virtual void OnCollide(Collider2D coll) {
         Debug.Log("collided with " + coll.name);
+        if (coll.CompareTag("Monster")) {
+            Destroy(coll.gameObject);
+        }
     }
 }
 

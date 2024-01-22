@@ -44,6 +44,9 @@ MonoBehaviour:
   - <FixedUpdate>g__RPCFlipSprite|12_0
   - OnDirectionChange_LEFT
   - OnDirectionChange_RIGHT
+  - RPC_SyncMonsters
+  - RPC_DestroyMonster
+  - RPC_InstantiateObject
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

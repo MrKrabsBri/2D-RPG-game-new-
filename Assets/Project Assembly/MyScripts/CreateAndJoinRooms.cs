@@ -11,7 +11,7 @@ public class CreateAndJoinRooms : MonoBehaviourPunCallbacks{
     public InputField joinInput;
 
     public void CreateRoom() {
-        PhotonNetwork.CreateRoom(createInput.text);
+        PhotonNetwork.CreateRoom(createInput.text, new Photon.Realtime.RoomOptions { MaxPlayers = 2});
     }
 
     public void JoinRoom() {

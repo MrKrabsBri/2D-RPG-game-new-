@@ -12,25 +12,25 @@ public class Automove : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void Update() {
-        // Move to the left for 1 second
+    void FixedUpdate() {
+        // Move to the left for 3 second
         if (moveLeft) {
             transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
             timer += Time.deltaTime;
 
-            if (timer >= 1f) {
+            if (timer >= 3f) {
                 moveLeft = false;
                 timer = 0f;
             }
         }
-        // Move to the right for 1 second
+        // Move to the right for 3 second
         else {
 
 
             transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
             timer += Time.deltaTime;
 
-            if (timer >= 1f) {
+            if (timer >= 3f) {
                 moveLeft = true;
                 timer = 0f;
             }
@@ -43,7 +43,22 @@ public class Automove : MonoBehaviour
         }
     }
 
+/*    private void OnTriggerEnter2D(Collider2D otherCollider) {
+        // Check if the colliding GameObject is the player
+        Debug.Log("triggeris");
+        if (otherCollider.CompareTag("Player")) {
+            // Assuming the player has a script that handles health (replace "PlayerHealth" with your actual script name)
 
+            // Destroy the monster GameObject
+            OnCollide(otherCollider);
+            Debug.Log("destroying");
+            Destroy(gameObject);
+        }
+    }
+
+    protected virtual void OnCollide(Collider2D coll) {
+        Debug.Log("collided with " + coll.name);
+    }*/
 
 
 

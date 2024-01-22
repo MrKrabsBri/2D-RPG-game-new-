@@ -6,6 +6,7 @@ public class SpawnPlayers : MonoBehaviour
 {
 
     public GameObject playerPrefab;
+    public GameObject monsterPrefab;
 
     //for random spawn
     public float minX;
@@ -22,6 +23,7 @@ public class SpawnPlayers : MonoBehaviour
         // be sito kiekvienas savo client matytu tik savo player,
         // su situo visi playeriai matysis visose game versijose.
         PhotonNetwork.Instantiate(playerPrefab.name, randomPosition, Quaternion.identity);
+        //PhotonNetwork.Instantiate(monsterPrefab.name, randomPosition, Quaternion.identity);
     }
 
 }

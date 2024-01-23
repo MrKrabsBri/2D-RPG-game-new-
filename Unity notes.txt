@@ -22,3 +22,7 @@ naudok kuo daugiau int vietoje float.
 
 synchronizing objects naudojam OnPhotonSerializeView,
 kai norim kazka right away padaryti naudojam RPC
+
+unity assets : 
+https://www.reddit.com/r/gameassets/
+music : https://creatorchords.com/

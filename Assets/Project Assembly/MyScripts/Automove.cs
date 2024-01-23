@@ -6,8 +6,9 @@ using UnityEngine;
 public class Automove : MonoBehaviourPun, IPunObservable {
     private bool moveLeft = true;
     private float timer = 0f;
-    private float moveSpeed = 2f; // Adjust the speed as needed
+    private float moveSpeed = 3f; // Adjust the speed as needed
     private SpriteRenderer spriteRenderer;
+    private Vector3 smoothMove;
 
     /*private Vector3 networkPosition;
     private Quaternion networkRotation;*/
@@ -50,15 +51,20 @@ public class Automove : MonoBehaviourPun, IPunObservable {
             transform.position = Vector3.Lerp(transform.position, networkPosition, Time.deltaTime * 10);
             transform.rotation = Quaternion.Lerp(transform.rotation, networkRotation, Time.deltaTime * 10);
         }*/
+       else {
+            SmoothMovement();
+        }
 
+    }
 
+    private void SmoothMovement() {
+        transform.position = Vector3.Lerp(transform.position, smoothMove, Time.deltaTime * 10);
     }
 
 
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
         if (stream.IsWriting) {
             // This is the master client; send the position and rotation
-            // This is the master client; send data
             stream.SendNext(new Vector2(transform.position.x, transform.position.y));
             stream.SendNext(transform.rotation.z); // Send only the z-axis rotation for 2D
         }
@@ -67,9 +73,11 @@ public class Automove : MonoBehaviourPun, IPunObservable {
             Vector2 receivedPosition = (Vector2)stream.ReceiveNext();
             float receivedRotationZ = (float)stream.ReceiveNext();
 
-            // Use the received data to update the object's state
+            // Use the received data to update the object's state++++
             transform.position = new Vector3(receivedPosition.x, receivedPosition.y, transform.position.z);
             transform.rotation = Quaternion.Euler(0, 0, receivedRotationZ);
+            smoothMove = (Vector3)stream.ReceiveNext();
+
         }
        // photonView.RPC("UpdateMonsterPosition", RpcTarget.AllBuffered, position, rotation);
 

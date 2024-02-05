@@ -12,7 +12,7 @@ public class Door : Collidable {
     }
 
     protected override void OnCollide(Collider2D coll) {
-        Debug.Log("collided with " + coll.name + "child method");
+        Debug.Log("Door collided with " + coll.name + "child method");
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = openedDoor; //chestscript.emptychest
     }
